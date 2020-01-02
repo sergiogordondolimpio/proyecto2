@@ -4,6 +4,9 @@ Definicion: sirve para generar cambios en archivos por varias personas
 
 Comandos:
 1- $ git init : sirve para arrancar el repositorio
-2- git add nombre.txt : arranca el archivo 
+2- git add nombre.txt : arranca el archivo, va antes de git commit. git add . : para agregar todos los archivos
 3- git commit : envia los ultimos cambios del archivo a la base de datos del sistema de control de version
-   git commit -m nombre.txt 'mensaje': este es el mejor porque mandas mensajes 
+   git commit -m nombre.txt 'mensaje': este es el mejor porque mandas mensajes.
+4- get status : para ver si hay alteracion, estado
+5- git show : muestra los cambios historicos
+6- git log nombre.txt : muestra toda la historia del archivo
