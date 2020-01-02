@@ -1,0 +1,9 @@
+Resumen de Git:
+
+Definicion: sirve para generar cambios en archivos por varias personas
+
+Comandos:
+1- $ git init : sirve para arrancar el repositorio
+2- git add nombre.txt : arranca el archivo 
+3- git commit : envia los ultimos cambios del archivo a la base de datos del sistema de control de version
+   git commit -m nombre.txt 'mensaje': este es el mejor porque mandas mensajes 
