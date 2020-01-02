@@ -1,4 +1,4 @@
-Resumen de Git:
+RESUMEN DE GIT
 
 Definicion: sirve para generar cambios en archivos por varias personas
 
@@ -10,3 +10,5 @@ Comandos:
 4- get status : para ver si hay alteracion, estado
 5- git show : muestra los cambios historicos
 6- git log nombre.txt : muestra toda la historia del archivo
+7- git push : lo lleva a un servidor
+8- git rm --cached : lo vuelve a la memoria RAM, le quita add, por si te equivocas
