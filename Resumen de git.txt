@@ -23,3 +23,12 @@ Comandos:
                         --hard : borra todos
                         --soft : queda solo lo de staging
                         HEAD : lo saca de staging pero se puede volver con add
+12- git branch : te muestra las ramas
+            git branch "nombre de la rama" : crea la rama
+13- git checkout "nombre de la rama" : va a la rama
+14- git merge "nombre de la rama" : une esta rama a la que estamos
+15- git remote add origin "URL de github del repositorio" : se une a la terminal
+16- git remote : te aparece origin
+            -v : te muestra el fetch y push
+17- git remote push "nombre de HUB" master : pone en repositorio
+17- git remote pull "nombre de HUB" master : trae de repositorio
