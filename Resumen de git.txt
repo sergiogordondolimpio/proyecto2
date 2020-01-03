@@ -1,14 +1,21 @@
 RESUMEN DE GIT
 
-Definicion: sirve para generar cambios en archivos por varias personas
+Definicion: sirve para generar cambios en archivos por varias personas.
+git solo usa texto plano (.txt)
 
 Comandos:
 1- $ git init : sirve para arrancar el repositorio
 2- git add nombre.txt : arranca el archivo, va antes de git commit. git add . : para agregar todos los archivos
 3- git commit : envia los ultimos cambios del archivo a la base de datos del sistema de control de version
    git commit -m nombre.txt 'mensaje': este es el mejor porque mandas mensajes.
-4- get status : para ver si hay alteracion, estado
+4- git status : para ver si hay alteracion, estado
 5- git show : muestra los cambios historicos
 6- git log nombre.txt : muestra toda la historia del archivo
 7- git push : lo lleva a un servidor
-8- git rm --cached : lo vuelve a la memoria RAM, le quita add, por si te equivocas
+8- git rm   --cached :  lo vuelve a la memoria RAM, le quita add, por si te equivocas. 
+                        Se mantiene en el disco duro
+            --forced :  elimina tambien del disco duro, pero se puede recuperar.
+9- git  config : aparece configuracion
+        config --list : aparece configuracion por defecto
+        config --global: lo cambia o agrega por ejemplo en user.name "Fran"
+10- git diff "n° commit1" "n° commit2": lo compara uno con otro, se copia y pega
