@@ -18,4 +18,8 @@ Comandos:
 9- git  config : aparece configuracion
         config --list : aparece configuracion por defecto
         config --global: lo cambia o agrega por ejemplo en user.name "Fran"
-10- git diff "n° commit1" "n° commit2": lo compara uno con otro, se copia y pega
+10- git diff n°commit1 n°commit2: lo compara uno con otro, se copia y pega
+11- git reset n°commit :
+                        --hard : borra todos
+                        --soft : queda solo lo de staging
+                        HEAD : lo saca de staging pero se puede volver con add
